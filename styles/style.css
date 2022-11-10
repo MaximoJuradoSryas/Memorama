@@ -1,0 +1,45 @@
+*{
+    color: white;
+}
+body{
+    background-color: rgb(156, 156, 240);
+    min-height: 97vh;
+ display: grid;
+ grid-template-rows: repeat(2,20% auto) ;   
+}
+
+.titulo{
+    text-align: center;
+    margin-top: 3px;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 30px;
+}
+
+#cartaatras{
+    display: none;
+
+
+}
+
+
+.cartas{
+    background-image: url("https://2.bp.blogspot.com/-i5g4qU9C8O8/WaukrH_Qk7I/AAAAAAAAI0M/e9j4Z6G_WmIPhr2quEeZfUVF8pN8oLkfwCLcBGAs/s1600/Magic_the_gathering-card_back.jpg");
+    background-size: cover;
+    width: 150px;
+    height: 210px;
+    border: 2px solid rgb(0, 0, 0);
+   
+}
+
+.cardwrap{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 80px;
+}
+
+
+#cartafrente{
+   
+}
