@@ -1,11 +1,15 @@
 *{
     color: white;
+    margin: 0;
+    padding: 0;
 }
 body{
     background-color: rgb(156, 156, 240);
     min-height: 97vh;
- display: grid;
- grid-template-rows: repeat(2,20% auto) ;   
+    display: grid;
+    grid-template-rows: 20% 80% ; 
+    width: 100%;
+    padding: 3%; 
 }
 
 .titulo{
@@ -23,20 +27,26 @@ body{
 
 
 .cartas{
-    background-image: url("https://2.bp.blogspot.com/-i5g4qU9C8O8/WaukrH_Qk7I/AAAAAAAAI0M/e9j4Z6G_WmIPhr2quEeZfUVF8pN8oLkfwCLcBGAs/s1600/Magic_the_gathering-card_back.jpg");
-    background-size: cover;
-    width: 150px;
-    height: 210px;
-    border: 2px solid rgb(0, 0, 0);
-   
+    
+    width: 95%;
+    height: 222px;
+    border: 2px solid rgb(3, 49, 252);
+    background-repeat: no-repeat;
+    border-radius: 5%;
+}
+
+.cartas>img{
+    width: 100%;
+    height: 100%;
 }
 
 .cardwrap{
     display: grid;
     grid-template-columns: repeat(6,1fr);
+    width: 94%;
     justify-items: center;
     align-items: center;
-    gap: 80px;
+    gap: 40px; 
 }
 
 
