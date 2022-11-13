@@ -49,7 +49,10 @@ function comparar(){
         document.querySelectorAll(".open")[0].classList.replace('open','encontradas')
         document.querySelectorAll(".open")[0].classList.replace('open','encontradas')
         if(document.querySelectorAll(".encontradas").length==12){
-            ganar()
+
+            setTimeout(() => {
+                ganar()
+            }, 1000);
         }
     }
 }
@@ -79,7 +82,7 @@ function revolver(array){
         return newarray
 }
 
+
 function ganar(){
-    console.log("ganneee")
-    
+    alert("You won, please refresh de window")
 }
