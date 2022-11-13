@@ -84,5 +84,10 @@ function revolver(array){
 
 
 function ganar(){
-    alert("You won, please refresh the window")
+
+
+    alert("You won, the page will refresh itself")
+    setTimeout(() => {
+        location.reload()
+    }, 1000);
 }
