@@ -84,5 +84,5 @@ function revolver(array){
 
 
 function ganar(){
-    alert("You won, please refresh de window")
+    alert("You won, please refresh the window")
 }
